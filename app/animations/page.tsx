@@ -1,10 +1,18 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
+import {
+  CrankPistonMotionDrawing,
+  CrankPistonStudy,
+} from "@/components/plotter/crank-piston-motion-drawing";
 import { EngineeringMotionPreview } from "@/components/plotter/engineering-motion-preview";
 import {
   NewtonsCradleStudy,
   ProductionChainStudy,
 } from "@/components/plotter/engineering-studies";
+import {
+  GenevaMechanismMotionDrawing,
+  GenevaMechanismStudy,
+} from "@/components/plotter/geneva-mechanism-motion-drawing";
 import { illustrations } from "@/components/plotter/illustrations";
 import { IrisApertureMotionDrawing } from "@/components/plotter/iris-aperture-motion-drawing";
 import { NewtonsCradleMotionDrawing } from "@/components/plotter/newtons-cradle-motion-drawing";
@@ -98,6 +106,30 @@ const studies: {
     preview: (
       <EngineeringMotionPreview animated={<NewtonsCradleMotionDrawing />}>
         <NewtonsCradleStudy />
+      </EngineeringMotionPreview>
+    ),
+  },
+  {
+    id: "geneva-mechanism-animation",
+    label: "Motion only",
+    title: "Geneva mechanism",
+    description:
+      "A rotating pin enters one of four slots, advances the wheel by a quarter-turn, and releases it into a rest before the next step.",
+    preview: (
+      <EngineeringMotionPreview animated={<GenevaMechanismMotionDrawing />}>
+        <GenevaMechanismStudy />
+      </EngineeringMotionPreview>
+    ),
+  },
+  {
+    id: "crank-piston-animation",
+    label: "Motion only",
+    title: "Crank and piston",
+    description:
+      "Continuous rotation becomes a back-and-forth stroke. The connecting rod keeps its length while the piston follows a fixed horizontal axis.",
+    preview: (
+      <EngineeringMotionPreview animated={<CrankPistonMotionDrawing />}>
+        <CrankPistonStudy />
       </EngineeringMotionPreview>
     ),
   },
