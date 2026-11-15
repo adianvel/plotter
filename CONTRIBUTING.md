@@ -62,6 +62,7 @@ The installed skill does not depend on the website. These paths are relative to 
 | Static MEC-05 and OBJ-05                       | `components/plotter/engineering-studies.tsx`                                                                     |
 | MEC-05 shared core hatching                    | `components/plotter/production-chain-hatching.tsx`                                                               |
 | MEC-05 and OBJ-05 timelines                    | `components/plotter/production-chain-motion-drawing.tsx`, `components/plotter/newtons-cradle-motion-drawing.tsx` |
+| Geneva and crank/piston stills and timelines   | `components/plotter/geneva-mechanism-motion-drawing.tsx`, `components/plotter/crank-piston-motion-drawing.tsx`   |
 | Engineering playback, fallback, and visibility | `components/plotter/engineering-motion-preview.tsx`                                                              |
 | Resolved pilot export adapter                  | `scripts/export-plotter-pilots.tsx`                                                                              |
 | Download artifact generator                    | `scripts/build-plotter-downloads.tsx`                                                                            |
