@@ -33,6 +33,8 @@ Codes are a three-letter family prefix and a number, without gaps within a famil
 | [TYP-05](TYP-05.svg) | The joining stroke | The f and i share one continuous crossbar, joining the two glyphs into a single constructed ligature. |
 | [TYP-06](TYP-06.svg) | A monogram in the void | An M is defined by the transparent space within a hatched field; its straight stems and surrounding margin follow the same unit. |
 | [TYP-07](TYP-07.svg) | The center you see | A rightward shift brings a triangle’s area centroid to the center of its frame, providing a geometric starting point for optical alignment. |
+| [TYP-08](TYP-08.svg) | A letter, made wider | A constructed lowercase o widens from four units to seven while its height, corner radius, and contour inset stay fixed. |
+| [TYP-09](TYP-09.svg) | Beyond the type lines | A circular O extends eight construction units above and below the type lines of a flat H, illustrating overshoot. |
 
 ## Interfaces (INT)
 
@@ -50,6 +52,7 @@ Codes are a three-letter family prefix and a number, without gaps within a famil
 | [INT-10](INT-10.svg) | One corner rule | Three differently proportioned components retain a common corner radius. |
 | [INT-11](INT-11.svg) | The same modules, reflowed | Three equal modules preserve their size when the available width wraps the last one onto another row. |
 | [INT-12](INT-12.svg) | Position becomes value | The thumb locates sixty percent of a shared travel interval; the track clears its circular outline. |
+| [INT-13](INT-13.svg) | Four modules, two widths | Four equal modules reflow from one row to two, preserving their dimensions, twelve-unit gaps, and frame padding. |
 
 ## Time (TIM)
 
@@ -133,6 +136,9 @@ Codes are a three-letter family prefix and a number, without gaps within a famil
 | [OBJ-03](OBJ-03.svg) | A family of folders | One tab construction belongs to two folder widths. Paired corner radii and a shared tab dimension hold the family together. |
 | [OBJ-04](OBJ-04.svg) | A processor, constructed | Regular contacts connect a central CPU to I/O and memory. Dashed centerlines locate the package on an open construction grid. The layout is conceptual. |
 | [OBJ-05](OBJ-05.svg) | Newton’s cradle, at release | Five equal pendulums share a tangent rest position; one follows a true arc from a 30° release. |
+| [OBJ-06](OBJ-06.svg) | A waist between two bouts | Circular bouts meet tangent waist arcs, with the soundhole and bridge aligned to a shared centerline. |
+| [OBJ-07](OBJ-07.svg) | A diameter between two jaws | A fixed jaw and a sliding jaw touch opposite points of a circular part; their separation equals its diameter. |
+| [OBJ-08](OBJ-08.svg) | One center, an arched frame | Concentric arches define the frame while evenly spaced mullions divide its opening. |
 
 ## Mechanisms (MEC)
 
@@ -144,6 +150,7 @@ Codes are a three-letter family prefix and a number, without gaps within a famil
 | [MEC-03](MEC-03.svg) | An offset becomes a lift | An eccentric circular cam meets a guided roller, relating rotation to a vertical displacement. |
 | [MEC-04](MEC-04.svg) | A profile finds its receiver | A rounded bolt approaches the matching receiver, with its destination and clearance visible. |
 | [MEC-06](MEC-06.svg) | Unequal arms, equal moments | Three mass units on the shorter arm balance two on the longer arm. |
+| [MEC-07](MEC-07.svg) | Two links, one pivot | Two equal crossed links share a midpoint. Their opening angle determines the horizontal and vertical spans. |
 
 ## Craft (CRF)
 
@@ -155,6 +162,8 @@ Codes are a three-letter family prefix and a number, without gaps within a famil
 | [CRF-04](CRF-04.svg) | Across the crease | One corner reflects across its diagonal crease and becomes a triangular flap. |
 | [CRF-05](CRF-05.svg) | One shared corner | Four tiles meet around a common circular opening and a constant joint width. |
 | [CRF-06](CRF-06.svg) | Rejoin | An exactly matched repair key spans a seam and restores the connection between two parts. |
+| [CRF-07](CRF-07.svg) | Signatures along a spine | Nested folded sheets form a signature. Three matching signatures gather at a shared spine with a repeated pitch. |
+| [CRF-08](CRF-08.svg) | One cut, repeated | A notch cut into a four-panel accordion fold becomes two diamond openings when the strip unfolds. |
 
 ## Nature (NAT)
 

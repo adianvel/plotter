@@ -13001,6 +13001,1609 @@ function DrawingCraftRepairKey() {
   );
 }
 
+function DrawingObjectGuitarBody() {
+  return (
+    <BlueprintDrawing roles>
+      <g
+        fill={"none"}
+        strokeWidth={"1"}
+        strokeLinecap={"butt"}
+        strokeLinejoin={"round"}
+        style={{}}
+      >
+        <path
+          d={"M280 43V402M169 280H391M191 150H369"}
+          data-plotter-role={"centerline"}
+        />
+        <path
+          d={
+            "M346.5866 171.5923A70 70 0 0 1 213.4134 171.5923M204.6938 222.0865A95 95 0 0 1 355.3062 222.0865M355.3062 222.0865A55 55 0 1 0 346.5866 171.5923"
+          }
+          data-plotter-role={"guide"}
+        />
+        <path
+          d={
+            "M280 80A70 70 0 0 1 346.5866 171.5923A55 55 0 0 0 355.3062 222.0865A95 95 0 1 1 204.6938 222.0865A55 55 0 0 0 213.4134 171.5923A70 70 0 0 1 280 80Z"
+          }
+          data-plotter-role={"primary"}
+        />
+        <path d={"M265 56V126H295V56"} data-plotter-role={"secondary"} />
+        <circle cx={"280"} cy={"160"} r={"25"} data-plotter-role={"primary"} />
+        <circle
+          cx={"280"}
+          cy={"160"}
+          r={"29"}
+          data-plotter-role={"secondary"}
+        />
+        <path d={"M253 304H307V312H253Z"} data-plotter-role={"secondary"} />
+        <path d={"M273 126L273 304"} data-plotter-role={"secondary"} />
+        <path d={"M280 189L280 304"} data-plotter-role={"secondary"} />
+        <path d={"M287 126L287 304"} data-plotter-role={"secondary"} />
+        <path d={"M275 150H285M280 145V155"} data-plotter-role={"centerline"} />
+        <path d={"M275 280H285M280 275V285"} data-plotter-role={"centerline"} />
+        <path
+          d={"M393.9046 188.5577H403.9046M398.9046 183.5577V193.5577"}
+          data-plotter-role={"centerline"}
+        />
+        <circle
+          cx={"346.5866"}
+          cy={"171.5923"}
+          r={"2"}
+          data-plotter-role={"secondary"}
+        />
+        <circle
+          cx={"355.3062"}
+          cy={"222.0865"}
+          r={"2"}
+          data-plotter-role={"secondary"}
+        />
+        <path
+          d={"M280 280L347.1751 347.1751"}
+          data-plotter-role={"dimension"}
+        />
+        <text
+          x={"331"}
+          y={"326"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontFamily={"Cal Sans, sans-serif"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          textAnchor={"start"}
+          opacity={".5"}
+        >
+          {"R95"}
+        </text>
+        <path
+          d={"M398.9046 188.5577L346.5866 171.5923"}
+          data-plotter-role={"dimension"}
+        />
+        <text
+          x={"391"}
+          y={"169"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontFamily={"Cal Sans, sans-serif"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          textAnchor={"start"}
+          opacity={".5"}
+        >
+          {"R55"}
+        </text>
+        <path
+          d={"M185 288L185 408 M375 288L375 408"}
+          data-plotter-role={"guide"}
+        />
+        <path
+          d={"M185 401L262 401 M298 401L375 401"}
+          data-plotter-role={"dimension"}
+        />
+        <path
+          d={"M181 405L189 397 M371 405L379 397"}
+          data-plotter-role={"dimension"}
+        />
+        <text
+          x={"280"}
+          y={"405"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontFamily={"Cal Sans, sans-serif"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          textAnchor={"middle"}
+          opacity={".5"}
+        >
+          {"190"}
+        </text>
+        <path d={"M235 160H192L173 141"} data-plotter-role={"leader"} />
+        <text
+          x={"166"}
+          y={"136"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontFamily={"Cal Sans, sans-serif"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          textAnchor={"end"}
+          opacity={".72"}
+        >
+          {"Soundhole"}
+        </text>
+        <path d={"M280 115H209L190 96"} data-plotter-role={"leader"} />
+        <text
+          x={"183"}
+          y={"91"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontFamily={"Cal Sans, sans-serif"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          textAnchor={"end"}
+          opacity={".72"}
+        >
+          {"Upper bout"}
+        </text>
+      </g>
+    </BlueprintDrawing>
+  );
+}
+
+function DrawingMechanismScissorLinkage() {
+  return (
+    <BlueprintDrawing roles>
+      <g
+        fill={"none"}
+        strokeWidth={"1"}
+        strokeLinecap={"butt"}
+        strokeLinejoin={"round"}
+        style={{}}
+      >
+        <path
+          d={"M122 122H438M122 318H438M280 92V348"}
+          data-plotter-role={"centerline"}
+        />
+        <path d={"M140 330L420 109"} data-plotter-role={"centerline"} />
+        <path d={"M140 109L420 330"} data-plotter-role={"centerline"} />
+        <path
+          d={
+            "M162.2005 325.8456L410.2005 129.8456A10 10 0 0 0 397.7995 114.1544L149.7995 310.1544A10 10 0 0 0 162.2005 325.8456Z"
+          }
+          data-plotter-role={"primary"}
+        />
+        <path
+          d={
+            "M149.7995 129.8456L397.7995 325.8456A10 10 0 0 0 410.2005 310.1544L162.2005 114.1544A10 10 0 0 0 149.7995 129.8456Z"
+          }
+          data-plotter-role={"primary"}
+        />
+        <circle cx={"156"} cy={"318"} r={"4"} data-plotter-role={"primary"} />
+        <path d={"M138 318H174M156 300V336"} data-plotter-role={"centerline"} />
+        <circle cx={"404"} cy={"122"} r={"4"} data-plotter-role={"primary"} />
+        <path d={"M386 122H422M404 104V140"} data-plotter-role={"centerline"} />
+        <circle cx={"156"} cy={"122"} r={"4"} data-plotter-role={"primary"} />
+        <path d={"M138 122H174M156 104V140"} data-plotter-role={"centerline"} />
+        <circle cx={"404"} cy={"318"} r={"4"} data-plotter-role={"primary"} />
+        <path d={"M386 318H422M404 300V336"} data-plotter-role={"centerline"} />
+        <circle cx={"280"} cy={"220"} r={"13"} data-plotter-role={"primary"} />
+        <circle cx={"280"} cy={"220"} r={"4"} data-plotter-role={"primary"} />
+        <path
+          d={"M156 326L156 379 M404 326L404 379"}
+          data-plotter-role={"guide"}
+        />
+        <path
+          d={"M156 372L262 372 M298 372L404 372"}
+          data-plotter-role={"dimension"}
+        />
+        <path
+          d={"M152 376L160 368 M400 376L408 368"}
+          data-plotter-role={"dimension"}
+        />
+        <text
+          x={"280"}
+          y={"376"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontFamily={"Cal Sans, sans-serif"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          textAnchor={"middle"}
+          opacity={".5"}
+        >
+          {"248"}
+        </text>
+        <path
+          d={"M412 122L465 122 M412 318L465 318"}
+          data-plotter-role={"guide"}
+        />
+        <path
+          d={"M458 122L458 210 M458 230L458 318"}
+          data-plotter-role={"dimension"}
+        />
+        <path
+          d={"M454 126L462 118 M454 322L462 314"}
+          data-plotter-role={"dimension"}
+        />
+        <text
+          x={"458"}
+          y={"224"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontFamily={"Cal Sans, sans-serif"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          textAnchor={"middle"}
+          opacity={".5"}
+        >
+          {"196"}
+        </text>
+        <path
+          d={"M326.289 183.4168A59 59 0 0 1 326.289 256.5832"}
+          data-plotter-role={"dimension"}
+        />
+        <text
+          x={"349"}
+          y={"224"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontFamily={"Cal Sans, sans-serif"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          textAnchor={"start"}
+          opacity={".5"}
+        >
+          {"76.6°"}
+        </text>
+        <path d={"M271 210L233 172H195"} data-plotter-role={"leader"} />
+        <text
+          x={"187"}
+          y={"176"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontFamily={"Cal Sans, sans-serif"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          textAnchor={"end"}
+          opacity={".72"}
+        >
+          {"Shared pivot"}
+        </text>
+        <path d={"M390 133L415 102H446"} data-plotter-role={"leader"} />
+        <text
+          x={"454"}
+          y={"106"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontFamily={"Cal Sans, sans-serif"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          textAnchor={"start"}
+          opacity={".72"}
+        >
+          {"Equal links"}
+        </text>
+        <path
+          d={
+            "M137 157A158.1012 158.1012 0 0 1 187 92M423 157A158.1012 158.1012 0 0 0 373 92"
+          }
+          data-plotter-role={"guide"}
+        />
+      </g>
+    </BlueprintDrawing>
+  );
+}
+
+function DrawingTypeVariableWidth() {
+  return (
+    <BlueprintDrawing roles>
+      <g
+        fill={"none"}
+        strokeWidth={"1"}
+        strokeLinecap={"butt"}
+        strokeLinejoin={"round"}
+        style={{
+          fontWeight: "400",
+          fontOpticalSizing: "auto",
+          fontSynthesis: "none",
+          fontVariationSettings: "'GEOM' 25",
+        }}
+      >
+        <path d={"M82 132H478"} data-plotter-role={"guide"} />
+        <path d={"M82 292H478"} data-plotter-role={"guide"} />
+        <text
+          x={"88"}
+          y={"118"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={".72"}
+          textAnchor={"start"}
+        >
+          {"Narrow"}
+        </text>
+        <text
+          x={"318"}
+          y={"118"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={".72"}
+          textAnchor={"start"}
+        >
+          {"Wide"}
+        </text>
+        <rect
+          x={"110"}
+          y={"132"}
+          width={"80"}
+          height={"160"}
+          rx={"40"}
+          data-plotter-role={"primary"}
+        />
+        <rect
+          x={"130"}
+          y={"152"}
+          width={"40"}
+          height={"120"}
+          rx={"20"}
+          data-plotter-role={"primary"}
+        />
+        <path d={"M150.0 98V320"} data-plotter-role={"centerline"} />
+        <path d={"M94 172H206M94 252H206"} data-plotter-role={"centerline"} />
+        <path d={"M110 172A40 40 0 0 0 190 172"} data-plotter-role={"guide"} />
+        <path d={"M130 172A20 20 0 0 0 170 172"} data-plotter-role={"guide"} />
+        <path d={"M145 172h10M150 167v10"} data-plotter-role={"guide"} />
+        <circle cx={"150"} cy={"132"} r={"2"} data-plotter-role={"secondary"} />
+        <circle cx={"110"} cy={"172"} r={"2"} data-plotter-role={"secondary"} />
+        <path d={"M110 300V346M190 300V346"} data-plotter-role={"guide"} />
+        <path
+          d={"M110 338H138.0M162.0 338H190M106 342l8 -8M186 342l8 -8"}
+          data-plotter-role={"dimension"}
+        />
+        <text
+          x={"150.0"}
+          y={"342"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={".5"}
+          textAnchor={"middle"}
+        >
+          {"4u"}
+        </text>
+        <rect
+          x={"318"}
+          y={"132"}
+          width={"140"}
+          height={"160"}
+          rx={"40"}
+          data-plotter-role={"primary"}
+        />
+        <rect
+          x={"338"}
+          y={"152"}
+          width={"100"}
+          height={"120"}
+          rx={"20"}
+          data-plotter-role={"primary"}
+        />
+        <path d={"M388.0 98V320"} data-plotter-role={"centerline"} />
+        <path d={"M302 172H474M302 252H474"} data-plotter-role={"centerline"} />
+        <path d={"M318 172A40 40 0 0 0 398 172"} data-plotter-role={"guide"} />
+        <path d={"M338 172A20 20 0 0 0 378 172"} data-plotter-role={"guide"} />
+        <path d={"M353 172h10M358 167v10"} data-plotter-role={"guide"} />
+        <circle cx={"358"} cy={"132"} r={"2"} data-plotter-role={"secondary"} />
+        <circle cx={"318"} cy={"172"} r={"2"} data-plotter-role={"secondary"} />
+        <path d={"M318 300V346M458 300V346"} data-plotter-role={"guide"} />
+        <path
+          d={"M318 338H376.0M400.0 338H458M314 342l8 -8M454 342l8 -8"}
+          data-plotter-role={"dimension"}
+        />
+        <text
+          x={"388.0"}
+          y={"342"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={".5"}
+          textAnchor={"middle"}
+        >
+          {"7u"}
+        </text>
+        <path d={"M230 212H282"} data-plotter-role={"transfer"} />
+        <path
+          d={"M277.757 207.757L282 212L277.757 216.243"}
+          data-plotter-role={"secondary"}
+        />
+        <text
+          x={"256"}
+          y={"239"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={".72"}
+          textAnchor={"middle"}
+        >
+          {"Width"}
+        </text>
+        <path d={"M358 172L329.716 143.716"} data-plotter-role={"dimension"} />
+        <path
+          d={"M329.716 149.716V143.716H335.716"}
+          data-plotter-role={"dimension"}
+        />
+        <text
+          x={"307"}
+          y={"144"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={".5"}
+          textAnchor={"end"}
+        >
+          {"R2u"}
+        </text>
+        <path
+          d={
+            "M478 132h16M478 292h16M488 132V199M488 225V292M484 136l8 -8M484 296l8 -8"
+          }
+          data-plotter-role={"dimension"}
+        />
+        <text
+          x={"488"}
+          y={"216"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={".5"}
+          textAnchor={"middle"}
+        >
+          {"8u"}
+        </text>
+        <text
+          x={"280"}
+          y={"386"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={".72"}
+          textAnchor={"middle"}
+        >
+          {"Same height · same corner · same inset"}
+        </text>
+        <text
+          x={"280"}
+          y={"406"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={".5"}
+          textAnchor={"middle"}
+        >
+          {"u = 20"}
+        </text>
+      </g>
+    </BlueprintDrawing>
+  );
+}
+
+function DrawingObjectVernierCaliper() {
+  return (
+    <BlueprintDrawing roles>
+      <g
+        fill={"none"}
+        strokeWidth={"1"}
+        strokeLinecap={"butt"}
+        strokeLinejoin={"round"}
+        style={{}}
+      >
+        <path d={"M100 267H292M180 188V344"} data-plotter-role={"centerline"} />
+        <path
+          d={"M94 166H230M278 166H468V190H278M230 190H120V324H108L94 300V166"}
+          data-plotter-role={"primary"}
+        />
+        <path
+          d={"M230 154H278V204H254V324H240V204H230Z"}
+          data-plotter-role={"primary"}
+        />
+        <path
+          d={"M120 166V126H112L104 150V166M240 154V126H248L256 146V154"}
+          data-plotter-role={"secondary"}
+        />
+        <circle cx={"180"} cy={"267"} r={"60"} data-plotter-role={"primary"} />
+        <circle
+          cx={"180"}
+          cy={"267"}
+          r={"26"}
+          data-plotter-role={"secondary"}
+        />
+        <path d={"M175 267H185M180 262V272"} data-plotter-role={"centerline"} />
+        <path d={"M120 267H240"} data-plotter-role={"guide"} />
+        <path d={"M132 172L132 184"} data-plotter-role={"secondary"} />
+        <path d={"M142 172L142 178"} data-plotter-role={"secondary"} />
+        <path d={"M152 172L152 178"} data-plotter-role={"secondary"} />
+        <path d={"M162 172L162 178"} data-plotter-role={"secondary"} />
+        <path d={"M172 172L172 178"} data-plotter-role={"secondary"} />
+        <path d={"M182 172L182 184"} data-plotter-role={"secondary"} />
+        <path d={"M192 172L192 178"} data-plotter-role={"secondary"} />
+        <path d={"M202 172L202 178"} data-plotter-role={"secondary"} />
+        <path d={"M212 172L212 178"} data-plotter-role={"secondary"} />
+        <path d={"M222 172L222 178"} data-plotter-role={"secondary"} />
+        <path d={"M292 172L292 178"} data-plotter-role={"secondary"} />
+        <path d={"M302 172L302 178"} data-plotter-role={"secondary"} />
+        <path d={"M312 172L312 178"} data-plotter-role={"secondary"} />
+        <path d={"M322 172L322 178"} data-plotter-role={"secondary"} />
+        <path d={"M332 172L332 184"} data-plotter-role={"secondary"} />
+        <path d={"M342 172L342 178"} data-plotter-role={"secondary"} />
+        <path d={"M352 172L352 178"} data-plotter-role={"secondary"} />
+        <path d={"M362 172L362 178"} data-plotter-role={"secondary"} />
+        <path d={"M372 172L372 178"} data-plotter-role={"secondary"} />
+        <path d={"M382 172L382 184"} data-plotter-role={"secondary"} />
+        <path d={"M392 172L392 178"} data-plotter-role={"secondary"} />
+        <path d={"M402 172L402 178"} data-plotter-role={"secondary"} />
+        <path d={"M412 172L412 178"} data-plotter-role={"secondary"} />
+        <path d={"M422 172L422 178"} data-plotter-role={"secondary"} />
+        <path d={"M432 172L432 184"} data-plotter-role={"secondary"} />
+        <path d={"M442 172L442 178"} data-plotter-role={"secondary"} />
+        <path d={"M452 172L452 178"} data-plotter-role={"secondary"} />
+        <path d={"M238 162H270V181H238Z"} data-plotter-role={"secondary"} />
+        <path d={"M240 185L240 198"} data-plotter-role={"secondary"} />
+        <path d={"M245 185L245 193"} data-plotter-role={"secondary"} />
+        <path d={"M250 185L250 193"} data-plotter-role={"secondary"} />
+        <path d={"M255 185L255 193"} data-plotter-role={"secondary"} />
+        <path d={"M260 185L260 193"} data-plotter-role={"secondary"} />
+        <path d={"M265 185L265 198"} data-plotter-role={"secondary"} />
+        <circle cx={"265"} cy={"151"} r={"4"} data-plotter-role={"secondary"} />
+        <path
+          d={"M120 275L120 377 M240 275L240 377"}
+          data-plotter-role={"guide"}
+        />
+        <path
+          d={"M120 370L162 370 M198 370L240 370"}
+          data-plotter-role={"dimension"}
+        />
+        <path
+          d={"M116 374L124 366 M236 374L244 366"}
+          data-plotter-role={"dimension"}
+        />
+        <text
+          x={"180"}
+          y={"374"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontFamily={"Cal Sans, sans-serif"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          textAnchor={"middle"}
+          opacity={".5"}
+        >
+          {"⌀120"}
+        </text>
+        <path d={"M254 288L290 318H332"} data-plotter-role={"leader"} />
+        <text
+          x={"340"}
+          y={"322"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontFamily={"Cal Sans, sans-serif"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          textAnchor={"start"}
+          opacity={".72"}
+        >
+          {"Sliding jaw"}
+        </text>
+        <path d={"M260 190L304 229H337"} data-plotter-role={"leader"} />
+        <text
+          x={"345"}
+          y={"233"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontFamily={"Cal Sans, sans-serif"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          textAnchor={"start"}
+          opacity={".72"}
+        >
+          {"Vernier scale"}
+        </text>
+        <path d={"M119 267L93 280H64"} data-plotter-role={"leader"} />
+        <text
+          x={"56"}
+          y={"284"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontFamily={"Cal Sans, sans-serif"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          textAnchor={"end"}
+          opacity={".72"}
+        >
+          {"Contact"}
+        </text>
+        <path d={"M116 267H124M120 263V271"} data-plotter-role={"centerline"} />
+        <path d={"M236 267H244M240 263V271"} data-plotter-role={"centerline"} />
+        <path
+          d={"M180 267L222.4264 309.4264"}
+          data-plotter-role={"dimension"}
+        />
+        <text
+          x={"182"}
+          y={"315"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontFamily={"Cal Sans, sans-serif"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          textAnchor={"start"}
+          opacity={".5"}
+        >
+          {"R60"}
+        </text>
+        <path d={"M284 180H456"} data-plotter-role={"guide"} />
+      </g>
+    </BlueprintDrawing>
+  );
+}
+
+function DrawingCraftBookBinding() {
+  return (
+    <BlueprintDrawing roles>
+      <g
+        fill={"none"}
+        strokeWidth={"1"}
+        strokeLinecap={"butt"}
+        strokeLinejoin={"round"}
+        style={{
+          fontOpticalSizing: "auto",
+          fontSynthesis: "none",
+          fontVariationSettings: "'GEOM' 25",
+          fontWeight: "400",
+        }}
+      >
+        <path d={"M196 90V154M196 194V326"} data-plotter-role={"centerline"} />
+        <path
+          d={"M408 112H434M408 136H434M408 208H434M408 296H434"}
+          data-plotter-role={"guide"}
+        />
+        <path
+          d={"M400 112H196A12 12 0 0 0 196 136H400"}
+          data-plotter-role={"primary"}
+        />
+        <path
+          d={"M400 116H196A8 8 0 0 0 196 132H400"}
+          data-plotter-role={"primary"}
+        />
+        <path
+          d={"M400 120H196A4 4 0 0 0 196 128H400"}
+          data-plotter-role={"primary"}
+        />
+        <path
+          d={"M400 208H196A12 12 0 0 0 196 232H400"}
+          data-plotter-role={"primary"}
+        />
+        <path
+          d={"M400 212H196A8 8 0 0 0 196 228H400"}
+          data-plotter-role={"primary"}
+        />
+        <path
+          d={"M400 216H196A4 4 0 0 0 196 224H400"}
+          data-plotter-role={"primary"}
+        />
+        <path
+          d={"M400 240H196A12 12 0 0 0 196 264H400"}
+          data-plotter-role={"primary"}
+        />
+        <path
+          d={"M400 244H196A8 8 0 0 0 196 260H400"}
+          data-plotter-role={"primary"}
+        />
+        <path
+          d={"M400 248H196A4 4 0 0 0 196 256H400"}
+          data-plotter-role={"primary"}
+        />
+        <path
+          d={"M400 272H196A12 12 0 0 0 196 296H400"}
+          data-plotter-role={"primary"}
+        />
+        <path
+          d={"M400 276H196A8 8 0 0 0 196 292H400"}
+          data-plotter-role={"primary"}
+        />
+        <path
+          d={"M400 280H196A4 4 0 0 0 196 288H400"}
+          data-plotter-role={"primary"}
+        />
+        <path
+          d={"M410 199H185Q170 199 170 214V290Q170 305 185 305H410"}
+          data-plotter-role={"secondary"}
+        />
+        <path
+          d={"M410 193H185Q164 193 164 214V290Q164 311 185 311H410"}
+          data-plotter-role={"primary"}
+        />
+        <path d={"M410 193V199M410 305V311"} data-plotter-role={"primary"} />
+        <path d={"M298 191L298 153"} data-plotter-role={"transfer"} />
+        <path
+          d={"M293.757359 186.757359L298 191L302.242641 186.757359"}
+          data-plotter-role={"secondary"}
+        />
+        <path d={"M184 124L150 112H112"} data-plotter-role={"leader"} />
+        <text
+          x={"104"}
+          y={"116"}
+          textAnchor={"end"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={"0.72"}
+        >
+          {"Nested folds"}
+        </text>
+        <path d={"M164 252H132L112 272"} data-plotter-role={"leader"} />
+        <text
+          x={"104"}
+          y={"282"}
+          textAnchor={"end"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={"0.72"}
+        >
+          {"Spine"}
+        </text>
+        <path
+          d={"M416 220L453 220 M416 252L453 252"}
+          data-plotter-role={"guide"}
+        />
+        <path
+          d={"M448 220L448 227 M448 246L448 252"}
+          data-plotter-role={"dimension"}
+        />
+        <path
+          d={"M444 224L452 216 M444 256L452 248"}
+          data-plotter-role={"dimension"}
+        />
+        <text
+          x={"448"}
+          y={"240"}
+          textAnchor={"middle"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={"0.5"}
+        >
+          {"u"}
+        </text>
+        <path
+          d={"M184 328L184 362 M400 328L400 362"}
+          data-plotter-role={"guide"}
+        />
+        <path
+          d={"M184 357L275 357 M309 357L400 357"}
+          data-plotter-role={"dimension"}
+        />
+        <path
+          d={"M180 361L188 353 M396 361L404 353"}
+          data-plotter-role={"dimension"}
+        />
+        <text
+          x={"292"}
+          y={"361"}
+          textAnchor={"middle"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={"0.5"}
+        >
+          {"6¾u"}
+        </text>
+        <text
+          x={"280"}
+          y={"395"}
+          textAnchor={"middle"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={"0.5"}
+        >
+          {"u = 32"}
+        </text>
+      </g>
+    </BlueprintDrawing>
+  );
+}
+
+function DrawingObjectArchedWindow() {
+  return (
+    <BlueprintDrawing roles>
+      <g
+        fill={"none"}
+        strokeWidth={"1"}
+        strokeLinecap={"butt"}
+        strokeLinejoin={"round"}
+        style={{
+          fontOpticalSizing: "auto",
+          fontSynthesis: "none",
+          fontVariationSettings: "'GEOM' 25",
+          fontWeight: "400",
+        }}
+      >
+        <path
+          d={"M170 342V234A110 110 0 0 1 390 234V342Z"}
+          data-plotter-role={"primary"}
+        />
+        <path
+          d={"M182 330V234A98 98 0 0 1 378 234V330Z"}
+          data-plotter-role={"primary"}
+        />
+        <path
+          d={"M227 151.56821V230M227 238V330"}
+          data-plotter-role={"primary"}
+        />
+        <path
+          d={"M235 146.94255V230M235 238V330"}
+          data-plotter-role={"primary"}
+        />
+        <path
+          d={"M276 136.08167V230M276 238V330"}
+          data-plotter-role={"primary"}
+        />
+        <path
+          d={"M284 136.08167V230M284 238V330"}
+          data-plotter-role={"primary"}
+        />
+        <path
+          d={"M325 146.94255V230M325 238V330"}
+          data-plotter-role={"primary"}
+        />
+        <path
+          d={"M333 151.56821V230M333 238V330"}
+          data-plotter-role={"primary"}
+        />
+        <path d={"M182 230H227M182 238H227"} data-plotter-role={"primary"} />
+        <path d={"M235 230H276M235 238H276"} data-plotter-role={"primary"} />
+        <path d={"M284 230H325M284 238H325"} data-plotter-role={"primary"} />
+        <path d={"M333 230H378M333 238H378"} data-plotter-role={"primary"} />
+        <path
+          d={"M280 102V122M280 130V226M280 242V358M145 234H272M288 234H414"}
+          data-plotter-role={"centerline"}
+        />
+        <path
+          d={"M170 234A110 110 0 0 0 390 234"}
+          data-plotter-role={"guide"}
+        />
+        <circle
+          cx={"280"}
+          cy={"234"}
+          r={"2.5"}
+          data-plotter-role={"secondary"}
+        />
+        <path
+          d={"M282.5 231.5L357.78175 156.21825"}
+          data-plotter-role={"dimension"}
+        />
+        <path
+          d={"M351.78175 156.21825H357.78175V162.21825"}
+          data-plotter-role={"dimension"}
+        />
+        <text
+          x={"346"}
+          y={"203"}
+          textAnchor={"start"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={"0.5"}
+        >
+          {"R110"}
+        </text>
+        <path d={"M231 242V352M329 242V352"} data-plotter-role={"guide"} />
+        <path
+          d={"M231 358L231 378 M280 358L280 378"}
+          data-plotter-role={"guide"}
+        />
+        <path
+          d={"M231 373L238.5 373 M272.5 373L280 373"}
+          data-plotter-role={"dimension"}
+        />
+        <path
+          d={"M227 377L235 369 M276 377L284 369"}
+          data-plotter-role={"dimension"}
+        />
+        <text
+          x={"255.5"}
+          y={"377"}
+          textAnchor={"middle"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={"0.5"}
+        >
+          {"u"}
+        </text>
+        <path d={"M390 287L423 272H440"} data-plotter-role={"leader"} />
+        <text
+          x={"448"}
+          y={"276"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={"0.72"}
+        >
+          {"Frame"}
+        </text>
+        <text
+          x={"280"}
+          y={"413"}
+          textAnchor={"middle"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={"0.5"}
+        >
+          {"u = 49"}
+        </text>
+      </g>
+    </BlueprintDrawing>
+  );
+}
+
+function DrawingCraftPaperCutPattern() {
+  return (
+    <BlueprintDrawing roles>
+      <g
+        fill={"none"}
+        strokeWidth={"1"}
+        strokeLinecap={"butt"}
+        strokeLinejoin={"round"}
+        style={{
+          fontOpticalSizing: "auto",
+          fontSynthesis: "none",
+          fontVariationSettings: "'GEOM' 25",
+          fontWeight: "400",
+        }}
+      >
+        <path
+          d={"M244 108H316V132L304 144L316 156V180H244Z"}
+          data-plotter-role={"primary"}
+        />
+        <path d={"M316 132V156"} data-plotter-role={"absent"} />
+        <path d={"M238 108H220M238 180H220"} data-plotter-role={"guide"} />
+        <text
+          x={"210"}
+          y={"148"}
+          textAnchor={"end"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={"0.72"}
+        >
+          {"Folded ×4"}
+        </text>
+        <path d={"M304 144L341 115H364"} data-plotter-role={"leader"} />
+        <text
+          x={"372"}
+          y={"119"}
+          textAnchor={"start"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={"0.72"}
+        >
+          {"Cut"}
+        </text>
+        <path d={"M280 230L280 196"} data-plotter-role={"transfer"} />
+        <path
+          d={"M275.757359 225.757359L280 230L284.242641 225.757359"}
+          data-plotter-role={"secondary"}
+        />
+        <text
+          x={"294"}
+          y={"217"}
+          textAnchor={"start"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={"0.72"}
+        >
+          {"Unfold"}
+        </text>
+        <path d={"M136 250H424V322H136Z"} data-plotter-role={"primary"} />
+        <path
+          d={"M208 274L220 286L208 298L196 286Z"}
+          data-plotter-role={"primary"}
+        />
+        <path
+          d={"M352 274L364 286L352 298L340 286Z"}
+          data-plotter-role={"primary"}
+        />
+        <path
+          d={"M208 250V266M208 306V322M280 250V322M352 250V266M352 306V322"}
+          data-plotter-role={"centerline"}
+        />
+        <path d={"M208 238V246M208 326V336"} data-plotter-role={"centerline"} />
+        <path d={"M280 238V246M280 326V336"} data-plotter-role={"centerline"} />
+        <path d={"M352 238V246M352 326V336"} data-plotter-role={"centerline"} />
+        <path d={"M208 274L183 223H152"} data-plotter-role={"leader"} />
+        <text
+          x={"144"}
+          y={"227"}
+          textAnchor={"end"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={"0.72"}
+        >
+          {"Reflected cut"}
+        </text>
+        <path d={"M352 316L454 334"} data-plotter-role={"leader"} />
+        <text
+          x={"462"}
+          y={"338"}
+          textAnchor={"start"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={"0.72"}
+        >
+          {"Crease"}
+        </text>
+        <path d={"M244 92L244 72 M316 92L316 72"} data-plotter-role={"guide"} />
+        <path
+          d={"M244 77L263 77 M297 77L316 77"}
+          data-plotter-role={"dimension"}
+        />
+        <path
+          d={"M240 81L248 73 M312 81L320 73"}
+          data-plotter-role={"dimension"}
+        />
+        <text
+          x={"280"}
+          y={"81"}
+          textAnchor={"middle"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={"0.5"}
+        >
+          {"3u"}
+        </text>
+        <path
+          d={"M136 338L136 374 M424 338L424 374"}
+          data-plotter-role={"guide"}
+        />
+        <path
+          d={"M136 369L263 369 M297 369L424 369"}
+          data-plotter-role={"dimension"}
+        />
+        <path
+          d={"M132 373L140 365 M420 373L428 365"}
+          data-plotter-role={"dimension"}
+        />
+        <text
+          x={"280"}
+          y={"373"}
+          textAnchor={"middle"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={"0.5"}
+        >
+          {"12u"}
+        </text>
+        <text
+          x={"280"}
+          y={"407"}
+          textAnchor={"middle"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={"0.5"}
+        >
+          {"u = 24"}
+        </text>
+      </g>
+    </BlueprintDrawing>
+  );
+}
+
+function DrawingTypeRoundOvershoot() {
+  return (
+    <BlueprintDrawing roles>
+      <g
+        fill={"none"}
+        strokeWidth={"1"}
+        strokeLinecap={"butt"}
+        strokeLinejoin={"round"}
+        style={{
+          fontWeight: "400",
+          fontOpticalSizing: "auto",
+          fontSynthesis: "none",
+          fontVariationSettings: "'GEOM' 25",
+        }}
+      >
+        <path d={"M90 140H472"} data-plotter-role={"guide"} />
+        <path d={"M90 284H472"} data-plotter-role={"guide"} />
+        <path d={"M286 132H456"} data-plotter-role={"guide"} />
+        <path d={"M286 292H456"} data-plotter-role={"guide"} />
+        <path
+          d={"M110 140H130V200H202V140H222V284H202V220H130V284H110Z"}
+          data-plotter-role={"primary"}
+        />
+        <circle cx={"370"} cy={"212"} r={"80"} data-plotter-role={"primary"} />
+        <circle cx={"370"} cy={"212"} r={"60"} data-plotter-role={"primary"} />
+        <path d={"M370 100V318M266 212H474"} data-plotter-role={"centerline"} />
+        <path d={"M166 112V312"} data-plotter-role={"centerline"} />
+        <path d={"M365 212h10M370 207v10"} data-plotter-role={"guide"} />
+        <circle cx={"370"} cy={"132"} r={"2"} data-plotter-role={"secondary"} />
+        <circle cx={"370"} cy={"292"} r={"2"} data-plotter-role={"secondary"} />
+        <circle cx={"290"} cy={"212"} r={"2"} data-plotter-role={"secondary"} />
+        <circle cx={"450"} cy={"212"} r={"2"} data-plotter-role={"secondary"} />
+        <path d={"M130 200H242M130 220H242"} data-plotter-role={"guide"} />
+        <text
+          x={"82"}
+          y={"144"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={".5"}
+          textAnchor={"end"}
+        >
+          {"Cap line"}
+        </text>
+        <text
+          x={"82"}
+          y={"288"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={".5"}
+          textAnchor={"end"}
+        >
+          {"Baseline"}
+        </text>
+        <text
+          x={"166"}
+          y={"102"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={".72"}
+          textAnchor={"middle"}
+        >
+          {"Flat"}
+        </text>
+        <text
+          x={"370"}
+          y={"102"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={".72"}
+          textAnchor={"middle"}
+        >
+          {"Round"}
+        </text>
+        <path d={"M370 212L426.569 155.431"} data-plotter-role={"dimension"} />
+        <path
+          d={"M420.569 155.431H426.569V161.431"}
+          data-plotter-role={"dimension"}
+        />
+        <text
+          x={"395"}
+          y={"198"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={".5"}
+          textAnchor={"start"}
+        >
+          {"R80"}
+        </text>
+        <path
+          d={"M458 284H486M458 292H486M478 284V292M474 288l8 -8M474 296l8 -8"}
+          data-plotter-role={"dimension"}
+        />
+        <text
+          x={"496"}
+          y={"292"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={".5"}
+          textAnchor={"start"}
+        >
+          {"8"}
+        </text>
+        <path d={"M374 297L399 328H438"} data-plotter-role={"leader"} />
+        <text
+          x={"446"}
+          y={"332"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={".72"}
+          textAnchor={"start"}
+        >
+          {"Overshoot"}
+        </text>
+        <path d={"M110 292V354M130 292V354"} data-plotter-role={"guide"} />
+        <path
+          d={"M110 346H108.0M132.0 346H130M106 350l8 -8M126 350l8 -8"}
+          data-plotter-role={"dimension"}
+        />
+        <text
+          x={"120.0"}
+          y={"350"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={".5"}
+          textAnchor={"middle"}
+        >
+          {"u"}
+        </text>
+        <text
+          x={"280"}
+          y={"386"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={".72"}
+          textAnchor={"middle"}
+        >
+          {"Round contours extend beyond the shared type lines"}
+        </text>
+        <text
+          x={"280"}
+          y={"406"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={".5"}
+          textAnchor={"middle"}
+        >
+          {"u = 20 · cap height = 144"}
+        </text>
+      </g>
+    </BlueprintDrawing>
+  );
+}
+
+function DrawingInterfaceModuleWrap() {
+  return (
+    <BlueprintDrawing roles>
+      <g
+        fill={"none"}
+        strokeWidth={"1"}
+        strokeLinecap={"butt"}
+        strokeLinejoin={"round"}
+        style={{
+          fontWeight: "400",
+          fontOpticalSizing: "auto",
+          fontSynthesis: "none",
+          fontVariationSettings: "'GEOM' 25",
+        }}
+      >
+        <rect
+          x={"94"}
+          y={"94"}
+          width={"372"}
+          height={"84"}
+          rx={"8"}
+          data-plotter-role={"secondary"}
+        />
+        <rect
+          x={"182"}
+          y={"246"}
+          width={"196"}
+          height={"148"}
+          rx={"8"}
+          data-plotter-role={"secondary"}
+        />
+        <rect
+          x={"110"}
+          y={"110"}
+          width={"76"}
+          height={"52"}
+          rx={"5"}
+          data-plotter-role={"primary"}
+        />
+        <text
+          x={"148"}
+          y={"141"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={".72"}
+          textAnchor={"middle"}
+        >
+          {"1"}
+        </text>
+        <rect
+          x={"198"}
+          y={"110"}
+          width={"76"}
+          height={"52"}
+          rx={"5"}
+          data-plotter-role={"primary"}
+        />
+        <text
+          x={"236"}
+          y={"141"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={".72"}
+          textAnchor={"middle"}
+        >
+          {"2"}
+        </text>
+        <rect
+          x={"286"}
+          y={"110"}
+          width={"76"}
+          height={"52"}
+          rx={"5"}
+          data-plotter-role={"primary"}
+        />
+        <text
+          x={"324"}
+          y={"141"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={".72"}
+          textAnchor={"middle"}
+        >
+          {"3"}
+        </text>
+        <rect
+          x={"374"}
+          y={"110"}
+          width={"76"}
+          height={"52"}
+          rx={"5"}
+          data-plotter-role={"primary"}
+        />
+        <text
+          x={"412"}
+          y={"141"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={".72"}
+          textAnchor={"middle"}
+        >
+          {"4"}
+        </text>
+        <rect
+          x={"374"}
+          y={"110"}
+          width={"76"}
+          height={"52"}
+          rx={"5"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fillOpacity={"0.055"}
+          data-plotter-fill={"highlight"}
+        />
+        <rect
+          x={"198"}
+          y={"262"}
+          width={"76"}
+          height={"52"}
+          rx={"5"}
+          data-plotter-role={"primary"}
+        />
+        <text
+          x={"236"}
+          y={"293"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={".72"}
+          textAnchor={"middle"}
+        >
+          {"1"}
+        </text>
+        <rect
+          x={"286"}
+          y={"262"}
+          width={"76"}
+          height={"52"}
+          rx={"5"}
+          data-plotter-role={"primary"}
+        />
+        <text
+          x={"324"}
+          y={"293"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={".72"}
+          textAnchor={"middle"}
+        >
+          {"2"}
+        </text>
+        <rect
+          x={"198"}
+          y={"326"}
+          width={"76"}
+          height={"52"}
+          rx={"5"}
+          data-plotter-role={"primary"}
+        />
+        <text
+          x={"236"}
+          y={"357"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={".72"}
+          textAnchor={"middle"}
+        >
+          {"3"}
+        </text>
+        <rect
+          x={"286"}
+          y={"326"}
+          width={"76"}
+          height={"52"}
+          rx={"5"}
+          data-plotter-role={"primary"}
+        />
+        <text
+          x={"324"}
+          y={"357"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={".72"}
+          textAnchor={"middle"}
+        >
+          {"4"}
+        </text>
+        <rect
+          x={"286"}
+          y={"326"}
+          width={"76"}
+          height={"52"}
+          rx={"5"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fillOpacity={"0.055"}
+          data-plotter-fill={"highlight"}
+        />
+        <text
+          x={"106"}
+          y={"78"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={".72"}
+          textAnchor={"start"}
+        >
+          {"Four columns"}
+        </text>
+        <text
+          x={"182"}
+          y={"230"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={".72"}
+          textAnchor={"start"}
+        >
+          {"Two columns"}
+        </text>
+        <path d={"M280 218V194"} data-plotter-role={"transfer"} />
+        <path
+          d={"M275.757 213.757L280 218L284.243 213.757"}
+          data-plotter-role={"secondary"}
+        />
+        <path d={"M94 86V50M466 86V50"} data-plotter-role={"guide"} />
+        <path
+          d={"M94 58H258M302 58H466M90 62l8 -8M462 62l8 -8"}
+          data-plotter-role={"dimension"}
+        />
+        <text
+          x={"280"}
+          y={"62"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={".5"}
+          textAnchor={"middle"}
+        >
+          {"372"}
+        </text>
+        <path d={"M386 314H414M386 326H414"} data-plotter-role={"guide"} />
+        <path
+          d={"M406 314V326M402 318l8 -8M402 330l8 -8"}
+          data-plotter-role={"dimension"}
+        />
+        <text
+          x={"430"}
+          y={"324"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={".72"}
+          textAnchor={"start"}
+        >
+          {"Gap 12"}
+        </text>
+        <path d={"M110 186V202M186 186V202"} data-plotter-role={"guide"} />
+        <path
+          d={"M110 194H132M164 194H186M106 198l8 -8M182 198l8 -8"}
+          data-plotter-role={"dimension"}
+        />
+        <text
+          x={"148"}
+          y={"198"}
+          fill={"currentColor"}
+          stroke={"none"}
+          fontSize={"11"}
+          fontWeight={"400"}
+          opacity={".5"}
+          textAnchor={"middle"}
+        >
+          {"76"}
+        </text>
+      </g>
+    </BlueprintDrawing>
+  );
+}
+
 export const expandedStudies: IllustrationStudy[] = [
   {
     id: "agent-registration",
@@ -13404,5 +15007,86 @@ export const expandedStudies: IllustrationStudy[] = [
       "An exactly matched repair key spans a seam and restores the connection between two parts.",
     category: "Craft",
     illustration: <DrawingCraftRepairKey />,
+  },
+  {
+    id: "object-guitar-body",
+    code: "OBJ-06",
+    title: "A waist between two bouts",
+    description:
+      "Circular bouts meet tangent waist arcs, with the soundhole and bridge aligned to a shared centerline.",
+    category: "Objects",
+    illustration: <DrawingObjectGuitarBody />,
+  },
+  {
+    id: "mechanism-scissor-linkage",
+    code: "MEC-07",
+    title: "Two links, one pivot",
+    description:
+      "Two equal crossed links share a midpoint. Their opening angle determines the horizontal and vertical spans.",
+    category: "Mechanisms",
+    illustration: <DrawingMechanismScissorLinkage />,
+  },
+  {
+    id: "type-variable-width",
+    code: "TYP-08",
+    title: "A letter, made wider",
+    description:
+      "A constructed lowercase o widens from four units to seven while its height, corner radius, and contour inset stay fixed.",
+    category: "Typography",
+    illustration: <DrawingTypeVariableWidth />,
+  },
+  {
+    id: "object-vernier-caliper",
+    code: "OBJ-07",
+    title: "A diameter between two jaws",
+    description:
+      "A fixed jaw and a sliding jaw touch opposite points of a circular part; their separation equals its diameter.",
+    category: "Objects",
+    illustration: <DrawingObjectVernierCaliper />,
+  },
+  {
+    id: "craft-book-binding",
+    code: "CRF-07",
+    title: "Signatures along a spine",
+    description:
+      "Nested folded sheets form a signature. Three matching signatures gather at a shared spine with a repeated pitch.",
+    category: "Craft",
+    illustration: <DrawingCraftBookBinding />,
+  },
+  {
+    id: "object-arched-window",
+    code: "OBJ-08",
+    title: "One center, an arched frame",
+    description:
+      "Concentric arches define the frame while evenly spaced mullions divide its opening.",
+    category: "Objects",
+    illustration: <DrawingObjectArchedWindow />,
+  },
+  {
+    id: "craft-paper-cut-pattern",
+    code: "CRF-08",
+    title: "One cut, repeated",
+    description:
+      "A notch cut into a four-panel accordion fold becomes two diamond openings when the strip unfolds.",
+    category: "Craft",
+    illustration: <DrawingCraftPaperCutPattern />,
+  },
+  {
+    id: "type-round-overshoot",
+    code: "TYP-09",
+    title: "Beyond the type lines",
+    description:
+      "A circular O extends eight construction units above and below the type lines of a flat H, illustrating overshoot.",
+    category: "Typography",
+    illustration: <DrawingTypeRoundOvershoot />,
+  },
+  {
+    id: "interface-module-wrap",
+    code: "INT-13",
+    title: "Four modules, two widths",
+    description:
+      "Four equal modules reflow from one row to two, preserving their dimensions, twelve-unit gaps, and frame padding.",
+    category: "Interfaces",
+    illustration: <DrawingInterfaceModuleWrap />,
   },
 ];

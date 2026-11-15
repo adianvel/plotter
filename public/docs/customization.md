@@ -4,7 +4,7 @@ Plotter separates the meaning of a mark from its numerical treatment. The visual
 
 ## Start with the adoption boundary
 
-Shared role tokens currently style **AGT-01, MEC-05, GEO-11, SYS-06, and CRF-06** in the catalogue. All current illustrations use 1-unit visible strokes at native size. Other drawings retain their authored opacity and dash patterns; a global token override does not imply that every illustration has adopted that role.
+Shared role tokens currently style **AGT-01, MEC-05, GEO-11, SYS-06, CRF-06–08, INT-13, MEC-07, OBJ-06–08, and TYP-08–09** in the catalogue. All current illustrations use 1-unit visible strokes at native size. Other drawings retain their authored opacity and dash patterns; a global token override does not imply that every illustration has adopted that role.
 
 Preserve an existing drawing’s composition, opacity grouping, text, timing, and intentional exceptions during implementation changes. Adopt roles only where the result preserves its appearance or where a redesign is requested.
 
