@@ -70,7 +70,7 @@ The installed skill does not depend on the website. These paths are relative to 
 
 `BlueprintDrawing` opts into shared roles with `roles`. The independent highlight-opacity token is used by TIM-01, TIM-03, and TIM-05 without changing their stroke-role adoption. The SVG-to-JSX builder preserves supported root styles, removes standalone fixed ink and the root font family so the gallery inherits its theme and loaded font, and gives repeated definitions local IDs. Font weight, optical sizing, and GEOM settings remain authored. Standalone SVGs retain their own font stack.
 
-Catalogue codes are a three-letter family prefix (`familyPrefix` in `components/plotter/study-types.ts`) and a number, without gaps within a family. A new drawing takes the next number in its family; a retired drawing keeps its code reserved in `retiredStudies`. Keep study IDs stable and keep removed studies out of active metadata.
+Catalogue codes are a three-letter family prefix (`familyPrefix` in `components/plotter/study-types.ts`) and a number, without gaps within a family. A new drawing takes the next number in its family; a retired drawing keeps its code reserved in `retiredStudies`. Keep study IDs stable and keep removed studies out of active metadata. COS-01 and COS-02 retain their published codes within Services and Systems; the catalogue check explicitly allows those two legacy codes.
 
 MEC-05’s static and animated core faces share a hatch component; its carrier frames remain unhatched. Timeline edits preserve the chosen still unless redesign is requested. Grammar isolation keeps focused marks at their original appearance, and supplemental grid segments restore only portions hidden with a form.
 
