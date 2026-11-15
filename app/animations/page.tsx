@@ -26,6 +26,7 @@ import { ParticlesMotion } from "@/components/plotter/particles-motion";
 import { PrimitivesBlueprint } from "@/components/plotter/primitives-blueprint";
 import { PrimitivesMotionPreview } from "@/components/plotter/primitives-motion-preview";
 import { ProductionChainMotionDrawing } from "@/components/plotter/production-chain-motion-drawing";
+import { SlottedLeverDrawing } from "@/components/plotter/slotted-lever-drawing";
 import { PageIntro, SheetBar } from "@/components/sheet";
 import { SiteShell } from "@/components/site-shell";
 
@@ -142,6 +143,18 @@ const studies: {
     preview: (
       <EngineeringMotionPreview animated={<OrbitsMotionDrawing />}>
         <OrbitsStudy />
+      </EngineeringMotionPreview>
+    ),
+  },
+  {
+    id: "slotted-lever-animation",
+    label: "Motion only",
+    title: "A rotation becomes a return",
+    description:
+      "A rotating crank slides a pin through a rocking lever. A short link carries that motion to a carriage, turning each revolution into a journey out and back.",
+    preview: (
+      <EngineeringMotionPreview animated={<SlottedLeverDrawing animated />}>
+        <SlottedLeverDrawing />
       </EngineeringMotionPreview>
     ),
   },
