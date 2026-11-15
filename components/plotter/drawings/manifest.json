@@ -442,5 +442,95 @@
     "file": "craft-repair-key.svg",
     "reference": "INT-02",
     "construction": "Mode: conceptual diagram. A repair key across a fracture is a limited metaphor for rebuilding after damage. This is not a joinery specification, load calculation, material claim, or manufacturability claim. Reference: INT-02, preserved fragments align into one assembled form. The loose and assembled keys are identical, separated by translation (0,160). Key width=64, height=48, each waist inset=16 SVG construction units. Projection guides follow the exact left and right extrema, stopping 10 units below the loose key and 10 units above the assembled rectangle. The seam is interrupted by the fitted key and shares no overlapping line segment with it."
+  },
+  {
+    "id": "object-guitar-body",
+    "code": "OBJ-06",
+    "title": "A waist between two bouts",
+    "description": "Circular bouts meet tangent waist arcs, with the soundhole and bridge aligned to a shared centerline.",
+    "category": "Objects",
+    "file": "object-guitar-body.svg",
+    "reference": "GEO-01",
+    "construction": "Geometric construction; SVG units. Not a specification of a real guitar. C=(280,150),r=70; D=(280,280),R=95; waist radius55; right waist center=(398.904601945868,188.55769230769232). External tangency residual below 1e-10 before serialization. Borrowed Circle, square, line: generating geometry and quiet axes."
+  },
+  {
+    "id": "mechanism-scissor-linkage",
+    "code": "MEC-07",
+    "title": "Two links, one pivot",
+    "description": "Two equal crossed links share a midpoint. Their opening angle determines the horizontal and vertical spans.",
+    "category": "Mechanisms",
+    "file": "mechanism-scissor-linkage.svg",
+    "reference": "MEC-06",
+    "construction": "Geometric mechanism study, not a manufactured linkage. Each half-link vector=(124,98); half-length=sqrt(24980)=158.0506248 SVG units. Endpoint span248, height196; angle between right half-links=2 atan(98/124)=76.64 degrees. Transparent crossing shows both links; central circle names the pivot. Borrowed Equal moments: restrained measured mechanical relationship."
+  },
+  {
+    "id": "type-variable-width",
+    "code": "TYP-08",
+    "title": "A letter, made wider",
+    "description": "A constructed lowercase o widens from four units to seven while its height, corner radius, and contour inset stay fixed.",
+    "category": "Typography",
+    "file": "type-variable-width.svg",
+    "reference": "TYP-01, GEO-03",
+    "construction": "Conceptual geometric width study, not an actual font interpolation. u=20. Outer width80/140, height160, radius40. Inner inset20, radius20. Borrowed geometry and subordinate guides from TYP-01 and GEO-03."
+  },
+  {
+    "id": "object-vernier-caliper",
+    "code": "OBJ-07",
+    "title": "A diameter between two jaws",
+    "description": "A fixed jaw and a sliding jaw touch opposite points of a circular part; their separation equals its diameter.",
+    "category": "Objects",
+    "file": "object-vernier-caliper.svg",
+    "reference": "GEO-03",
+    "construction": "Geometric construction of a hypothetical caliper, not a calibrated instrument. SVG units. Part center(180,267),radius60; jaw contacts x120 and x240. Nominal pitch10; vernier marks illustrative only and no metrological accuracy claimed. Borrowed The corner rule: exact contours, centerlines and two measurements."
+  },
+  {
+    "id": "craft-book-binding",
+    "code": "CRF-07",
+    "title": "Signatures along a spine",
+    "description": "Nested folded sheets form a signature. Three matching signatures gather at a shared spine with a repeated pitch.",
+    "category": "Craft",
+    "file": "craft-book-binding.svg",
+    "reference": "INT-02, CRF-04",
+    "construction": "Conceptual flat cross-section; geometric illustration, not binding specification. Reference: An assembly of parts (INT-02), preserved geometry between detached and gathered state. u=32. Fold circles centered x196, radii12/8/4; outer spine x184; fore-edge400; span216=6.75u; signature centers220/252/284 separated32. Cover curves are schematic Bezier profiles, not circular radius claims."
+  },
+  {
+    "id": "object-arched-window",
+    "code": "OBJ-08",
+    "title": "One center, an arched frame",
+    "description": "Concentric arches define the frame while evenly spaced mullions divide its opening.",
+    "category": "Objects",
+    "file": "object-arched-window.svg",
+    "reference": "GEO-01, EMP-04",
+    "construction": "Geometric elevation of a hypothetical window. Reference: An unbuilt arch (EMP-04), shared circular center and concentric boundaries. Center(280,234); R110, inner R98. Mullion centers231,280,329 spaced49=u; each width8. Vertical/arc junctions solved by y=234-sqrt(98^2-(x-280)^2). Construction circle remainder and visible arch share ownership without duplication. No engineering or glazing certification."
+  },
+  {
+    "id": "craft-paper-cut-pattern",
+    "code": "CRF-08",
+    "title": "One cut, repeated",
+    "description": "A notch cut into a four-panel accordion fold becomes two diamond openings when the strip unfolds.",
+    "category": "Craft",
+    "file": "craft-paper-cut-pattern.svg",
+    "reference": "CRF-04",
+    "construction": "Geometric paper construction. Reference: Across the crease (CRF-04), reflection of a cut around crease axes. Panel72=3u; four panels288=12u; u24. Folded face(244,108)-(316,180). Triangular cut vertices(316,132),(304,144),(316,156). Unfolded strip(136,250)-(424,322), crease axes208,280,352. Right folded edge maps to odd crease axes208 and352; reflected triangles form diamonds with half-width and half-height12. Fold lines shown as named theoretical axes using centerline role. Paper thickness omitted; no perspective."
+  },
+  {
+    "id": "type-round-overshoot",
+    "code": "TYP-09",
+    "title": "Beyond the type lines",
+    "description": "A circular O extends eight construction units above and below the type lines of a flat H, illustrating overshoot.",
+    "category": "Typography",
+    "file": "type-round-overshoot.svg",
+    "reference": "TYP-01",
+    "construction": "Illustrative type construction, not a universal font metric. H top140 bottom284. O center370,212 radius80; outer extrema132 and292, both8 beyond type lines. H stem20; inner O radius60. Borrowed TYP-01 overshoot relationship."
+  },
+  {
+    "id": "interface-module-wrap",
+    "code": "INT-13",
+    "title": "Four modules, two widths",
+    "description": "Four equal modules reflow from one row to two, preserving their dimensions, twelve-unit gaps, and frame padding.",
+    "category": "Interfaces",
+    "file": "interface-module-wrap.svg",
+    "reference": "INT-11",
+    "construction": "Each module is76x52; gap12; padding16. Wide frame372x84, narrow196x148. No dimensions change during reflow. Borrowed invariance/reflow relationship from INT-11, expanded to four modules/two rows."
   }
 ]

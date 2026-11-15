@@ -16,7 +16,7 @@ Start with the [local setup](README.md#run-the-website) and [repository guidelin
 
 Edit SVG sources before regenerating drawing components. Foundation runtime data, CSS, and reference tables derive from `standard.json`. Keep approved reference revisions and stable catalogue codes intact.
 
-Drawings use a native `560 × 440` viewBox and scale proportionally in the website. Every current illustration uses 1-unit visible strokes. Shared role-token customization currently covers **AGT-01, MEC-05, GEO-11, SYS-06, and CRF-06**. Other drawings retain their authored opacity and dash patterns; uniform width does not imply a catalogue-wide token migration.
+Drawings use a native `560 × 440` viewBox and scale proportionally in the website. Every current illustration uses 1-unit visible strokes. Shared role-token customization currently covers **AGT-01, MEC-05, GEO-11, SYS-06, CRF-06–08, INT-13, MEC-07, OBJ-06–08, and TYP-08–09**. Other drawings retain their authored opacity and dash patterns; uniform width does not imply a catalogue-wide token migration.
 
 Keep static geometry, animation timing, and host playback separate. Website loops have no visible controls, pause off-screen, and use a readable static fallback for reduced motion. Preserve transparent forms, attached hatching, and one owner per shared edge.
 
