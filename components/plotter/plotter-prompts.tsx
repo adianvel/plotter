@@ -143,10 +143,20 @@ export function PlotterPrompts({
         <h3 className="mono-label text-foreground">
           Then choose a workflow and copy a brief
         </h3>
-        <div className="items-end py-0!">
+        <div className="sheet-bar-tabs items-end py-0!">
           <TabsList aria-label="Choose a Plotter workflow" variant="underline">
-            <TabsTab value="drawing">Draw an illustration</TabsTab>
-            <TabsTab value="animation">Animate a drawing</TabsTab>
+            <TabsTab
+              className="max-[380px]:px-1.5! max-[380px]:text-sm!"
+              value="drawing"
+            >
+              Draw an illustration
+            </TabsTab>
+            <TabsTab
+              className="max-[380px]:px-1.5! max-[380px]:text-sm!"
+              value="animation"
+            >
+              Animate a drawing
+            </TabsTab>
           </TabsList>
         </div>
       </div>

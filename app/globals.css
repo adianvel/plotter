@@ -416,6 +416,14 @@
     font-variation-settings: normal;
     color: var(--foreground);
   }
+  /* 16px labels plus the bar padding outgrow the sheet below 384px. */
+  @media (max-width: 383px) {
+    .sheet-bar > .sheet-bar-tabs {
+      min-width: 0;
+      max-width: 100%;
+      padding-inline: 0;
+    }
+  }
 
   .sheet-art {
     min-width: 0;
